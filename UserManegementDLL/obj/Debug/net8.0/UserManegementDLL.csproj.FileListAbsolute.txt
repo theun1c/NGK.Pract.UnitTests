@@ -1,0 +1,11 @@
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\bin\Debug\net8.0\UserManegementDLL.deps.json
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\bin\Debug\net8.0\UserManegementDLL.dll
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\bin\Debug\net8.0\UserManegementDLL.pdb
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\obj\Debug\net8.0\UserManegementDLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\obj\Debug\net8.0\UserManegementDLL.AssemblyInfoInputs.cache
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\obj\Debug\net8.0\UserManegementDLL.AssemblyInfo.cs
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\obj\Debug\net8.0\UserManegementDLL.csproj.CoreCompileInputs.cache
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\obj\Debug\net8.0\UserManegementDLL.dll
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\obj\Debug\net8.0\refint\UserManegementDLL.dll
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\obj\Debug\net8.0\UserManegementDLL.pdb
+D:\Belov\projects\UserManegementDLL\UserManegementDLL\obj\Debug\net8.0\ref\UserManegementDLL.dll
