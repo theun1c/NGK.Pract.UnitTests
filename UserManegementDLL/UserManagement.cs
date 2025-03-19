@@ -8,32 +8,69 @@ using System.Threading.Tasks;
 //TODO доделать функционал весь
 namespace UserManegementDLL
 {
-    public class UserManagement : IUserManagement
+    public class UserManagement
     {
         private List<User> _users = new List<User>();
+
+        public bool Registration(User user)
+        {
+            if (user == null)
+                throw new ArgumentNullException("user cannot be empty!");
+            if (string.IsNullOrWhiteSpace(user.Email))
+                throw new ArgumentNullException("user email cannot be empty!");
+            if (string.IsNullOrWhiteSpace(user.Password))
+                throw new ArgumentNullException("user password cannot be empty!");
+            if (string.IsNullOrWhiteSpace(user.Name))
+                throw new ArgumentNullException("user name cannot be empty!");
+
+            if (_users.Any(u => u.Email == user.Email))
+                throw new Exception("this email has already been used");
+
+            _users.Add(user);
+            return true;
+        }
+
+        public void Delete(int id)
+        {
+            var user = _users.FirstOrDefault(u => u.Id == id);
+            if (user != null)
+            {
+                _users.Remove(user);
+            }
+        }
+
+        public bool Update(int id, User updatedUser)
+        {
+            if(updatedUser == null)
+                throw new ArgumentNullException("user cannot be empty!");
+
+            var oldUser = _users.FirstOrDefault(u => u.Id == id);
+            if (oldUser == null)
+                throw new ArgumentNullException("user cannot be empty!");
+
+            oldUser.Email = updatedUser.Email;
+            oldUser.Password = updatedUser.Password;
+            oldUser.Name = updatedUser.Name;
+            oldUser.Role = updatedUser.Role;
+
+            return true;
+        }
 
         public bool Auth(string email, string password)
         {
             throw new NotImplementedException();
         }
 
-        public bool Delete(User user)
-        {
-            if (user == null) 
-                return false;
-            else 
-                _users.Remove(user);
-            return true;
-        }
+       
 
         public List<User> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public User GetInfoById(int id)
+        public User GetUserById(int id)
         {
-            throw new NotImplementedException();
+            return _users.FirstOrDefault(u => u.Id == id);
         }
 
         public List<User> GetUsersByRole(string role)
@@ -56,21 +93,6 @@ namespace UserManegementDLL
             throw new NotImplementedException();
         }
 
-        public bool Registration(User user)
-        {
-            if(user == null || user.Email == null || user.Password == null)
-                return false;
-            else
-                _users.Add(user);            
-            return true;
-        }
-
-        public bool Update(User user)
-        {
-            if (user != null || _users.Contains(user))
-                return true;
-            _users.Add(user);
-            return false;
-        }
+        
     }
 }

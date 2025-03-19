@@ -1,6 +1,8 @@
-namespace UserManegementDLL.UnitTests
+using UserManegementDLL;
+
+namespace UserManagementDLL.UnitTests
 {
-    public class Tests
+    public class RegistrationTest
     {
         private UserManagement _userManegement;
 
@@ -13,17 +15,20 @@ namespace UserManegementDLL.UnitTests
         [Test]
         public void Registration_WhenGivenUser_ReturnsTrue()
         {
-            var _user = new User();
+            // Arrange
+            var _user = new User { Id = 1, Email = "test@test.com", Name = "Dima", Password="qwerty123", Role="admin" };
 
-            _user.Id = 1;
-            _user.Name = "TestName";
-            _user.Email = "TestEmail";
-            _user.Password = "TestPassword";
-            _user.Role = "TestRole";
-
+            // Action
             var result = _userManegement.Registration(_user);
 
+            // Assert
             Assert.That(result, Is.EqualTo(true));
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            _userManegement = null;
         }
       
     }

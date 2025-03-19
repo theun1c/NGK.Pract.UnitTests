@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserManagementDLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86260882904e63c5836d4517098964e2908ebf3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c942c6493037350ac4854432315b12ebcf5d9d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserManagementDLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserManagementDLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
