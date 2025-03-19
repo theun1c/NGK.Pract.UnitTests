@@ -378,14 +378,14 @@
           }
         }
       },
-      "UserManegementDLL/1.0.0": {
+      "UserManagementDLL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/UserManegementDLL.dll": {}
+          "bin/placeholder/UserManagementDLL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UserManegementDLL.dll": {}
+          "bin/placeholder/UserManagementDLL.dll": {}
         }
       }
     }
@@ -981,10 +981,10 @@
         "version.txt"
       ]
     },
-    "UserManegementDLL/1.0.0": {
+    "UserManagementDLL/1.0.0": {
       "type": "project",
-      "path": "../UserManegementDLL/UserManegementDLL.csproj",
-      "msbuildProject": "../UserManegementDLL/UserManegementDLL.csproj"
+      "path": "../UserManegementDLL/UserManagementDLL.csproj",
+      "msbuildProject": "../UserManegementDLL/UserManagementDLL.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -993,28 +993,28 @@
       "NUnit >= 3.14.0",
       "NUnit.Analyzers >= 3.9.0",
       "NUnit3TestAdapter >= 4.5.0",
-      "UserManegementDLL >= 1.0.0",
+      "UserManagementDLL >= 1.0.0",
       "coverlet.collector >= 6.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\БеловДА\\.nuget\\packages\\": {},
+    "C:\\Users\\belov\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Belov\\projects\\UserManegementDLL\\UserManegementDLL.UnitTests\\UserManegementDLL.UnitTests.csproj",
-      "projectName": "UserManegementDLL.UnitTests",
-      "projectPath": "D:\\Belov\\projects\\UserManegementDLL\\UserManegementDLL.UnitTests\\UserManegementDLL.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\БеловДА\\.nuget\\packages\\",
-      "outputPath": "D:\\Belov\\projects\\UserManegementDLL\\UserManegementDLL.UnitTests\\obj\\",
+      "projectUniqueName": "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL.UnitTests\\UserManagementDLL.UnitTests.csproj",
+      "projectName": "UserManagementDLL.UnitTests",
+      "projectPath": "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL.UnitTests\\UserManagementDLL.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\belov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\БеловДА\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\belov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1023,15 +1023,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Belov\\projects\\UserManegementDLL\\UserManegementDLL\\UserManegementDLL.csproj": {
-              "projectPath": "D:\\Belov\\projects\\UserManegementDLL\\UserManegementDLL\\UserManegementDLL.csproj"
+            "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\UserManagementDLL.csproj": {
+              "projectPath": "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\UserManagementDLL.csproj"
             }
           }
         }
@@ -1045,7 +1044,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1088,7 +1088,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

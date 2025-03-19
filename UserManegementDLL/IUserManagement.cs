@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UserManegementDLL
 {
-    public interface IUserManegement
+    public interface IUserManagement
     {
         bool Registration(User user);
         bool Delete(User user);

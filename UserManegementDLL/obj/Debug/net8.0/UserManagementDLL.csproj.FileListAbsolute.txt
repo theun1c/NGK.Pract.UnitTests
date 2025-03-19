@@ -1,0 +1,12 @@
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\bin\Debug\net8.0\UserManagementDLL.deps.json
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\bin\Debug\net8.0\UserManagementDLL.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\bin\Debug\net8.0\UserManagementDLL.pdb
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\obj\Debug\net8.0\UserManagementDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\obj\Debug\net8.0\UserManagementDLL.AssemblyInfoInputs.cache
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\obj\Debug\net8.0\UserManagementDLL.AssemblyInfo.cs
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\obj\Debug\net8.0\UserManagementDLL.csproj.CoreCompileInputs.cache
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\obj\Debug\net8.0\UserManagementDLL.sourcelink.json
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\obj\Debug\net8.0\UserManagementDLL.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\obj\Debug\net8.0\refint\UserManagementDLL.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\obj\Debug\net8.0\UserManagementDLL.pdb
+C:\Users\belov\Desktop\projects\NGK.Pract.UnitTests\UserManegementDLL\obj\Debug\net8.0\ref\UserManagementDLL.dll

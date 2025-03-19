@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\UserManegementDLL.csproj": {}
+    "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\UserManagementDLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\UserManegementDLL.csproj": {
+    "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\UserManagementDLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\UserManegementDLL.csproj",
-        "projectName": "UserManegementDLL",
-        "projectPath": "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\UserManegementDLL.csproj",
+        "projectUniqueName": "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\UserManagementDLL.csproj",
+        "projectName": "UserManagementDLL",
+        "projectPath": "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\UserManagementDLL.csproj",
         "packagesPath": "C:\\Users\\belov\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.UnitTests\\UserManegementDLL\\obj\\",
         "projectStyle": "PackageReference",

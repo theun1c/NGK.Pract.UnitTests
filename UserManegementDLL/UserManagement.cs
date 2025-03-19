@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 //TODO доделать функционал весь
 namespace UserManegementDLL
 {
-    public class UserManegement : IUserManegement
+    public class UserManagement : IUserManagement
     {
         private List<User> _users = new List<User>();
 
