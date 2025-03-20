@@ -44,6 +44,7 @@
        var result = _userManegement.Registration(user);
        Assert.That(result, Is.EqualTo(true));
    }
+   ```
 2. **Тестирование сброса пароля**:
     ```charp
     [Test]
@@ -54,6 +55,7 @@
         var result = _userManegement.PasswordReset(user, "newpassword123");
         Assert.AreEqual("Password has been changed: newpassword123", result);
     }
+    ```
 3. **Тестирование удаления пользователя**:
     ```charp
     [Test]
@@ -65,3 +67,4 @@
         var result = _userManegement.GetUserById(1);
         Assert.IsNull(result);
     }
+    ```
