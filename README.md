@@ -36,16 +36,16 @@
 
 ## Примеры использования
 1. **Тестирование регистрации пользователя**:
-   ```
+   ```charp
    [Test]
    public void Registration_WhenGivenUser_ReturnsTrue()
    {
        var user = new User { Id = 1, Email = "test@test.com", Name = "Dima", Password = "qwerty123", Role = "admin" };
        var result = _userManegement.Registration(user);
        Assert.That(result, Is.EqualTo(true));
-   }```
+   }
 2. **Тестирование сброса пароля**:
-    ```
+    ```charp
     [Test]
     public void PasswordReset_WhenGivenUserAndNewPassword_ReturnsSuccessMessage()
     {
@@ -53,9 +53,9 @@
         _userManegement.Registration(user);
         var result = _userManegement.PasswordReset(user, "newpassword123");
         Assert.AreEqual("Password has been changed: newpassword123", result);
-    }```
+    }
 3. **Тестирование удаления пользователя**:
-    ```
+    ```charp
     [Test]
     public void Delete_WhenGivenUserId_ReturnsNull()
     {
@@ -64,4 +64,4 @@
         _userManegement.Delete(1);
         var result = _userManegement.GetUserById(1);
         Assert.IsNull(result);
-    }```
+    }
