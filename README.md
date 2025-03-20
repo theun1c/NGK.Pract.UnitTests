@@ -36,7 +36,7 @@
 
 ## Примеры использования
 1. **Тестирование регистрации пользователя**:
-   ```csharp
+   ```
    [Test]
    public void Registration_WhenGivenUser_ReturnsTrue()
    {
@@ -45,7 +45,7 @@
        Assert.That(result, Is.EqualTo(true));
    }```
 2. **Тестирование сброса пароля**:
-    ```csharp
+    ```
     [Test]
     public void PasswordReset_WhenGivenUserAndNewPassword_ReturnsSuccessMessage()
     {
@@ -55,7 +55,7 @@
         Assert.AreEqual("Password has been changed: newpassword123", result);
     }```
 3. **Тестирование удаления пользователя**:
-    ```csharp
+    ```
     [Test]
     public void Delete_WhenGivenUserId_ReturnsNull()
     {
