@@ -36,7 +36,7 @@
 
 ## Примеры использования
 1. **Тестирование регистрации пользователя**:
-   ```charp
+   ```c#
    [Test]
    public void Registration_WhenGivenUser_ReturnsTrue()
    {
@@ -46,7 +46,7 @@
    }
    ```
 2. **Тестирование сброса пароля**:
-    ```charp
+    ```c#
     [Test]
     public void PasswordReset_WhenGivenUserAndNewPassword_ReturnsSuccessMessage()
     {
@@ -57,7 +57,7 @@
     }
     ```
 3. **Тестирование удаления пользователя**:
-    ```charp
+    ```c#
     [Test]
     public void Delete_WhenGivenUserId_ReturnsNull()
     {
