@@ -1,5 +1,8 @@
 ﻿namespace UserManegementDLL
 {
+    /// <summary>
+    /// класс модель пользователей с соответствующими полями.
+    /// </summary>
     public class User
     {
         public int Id { get; set; }
